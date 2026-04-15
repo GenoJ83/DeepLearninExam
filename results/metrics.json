@@ -1,0 +1,27 @@
+{
+  "train_accuracy": 0.9818444444444444,
+  "val_accuracy": 0.9216,
+  "test_accuracy": 0.9167,
+  "test_loss": 0.26301051898002625,
+  "test_precision_macro": 0.9162982019354367,
+  "test_recall_macro": 0.9167,
+  "test_f1_macro": 0.916228939608127,
+  "epochs_ran": 80,
+  "seconds": 66678.8,
+  "device": "cpu",
+  "hyperparameters": {
+    "data_dir": "./data",
+    "out_dir": "./results",
+    "epochs": 80,
+    "batch_size": 128,
+    "lr": 0.0003,
+    "weight_decay": 0.0001,
+    "dropout": 0.3,
+    "patience": 12,
+    "val_fraction": 0.1,
+    "seed": 42,
+    "no_augment": false,
+    "rotation": false,
+    "num_workers": 2
+  }
+}
